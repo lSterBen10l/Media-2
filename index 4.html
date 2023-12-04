@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 25px;
+            margin-bottom: 10px;
+            /* Adjust the margin here */
+        }
+
+        span {
+            writing-mode: vertical-rl;
+        }
+
+        .imgunder {
+            margin-top: 0;
+            padding-left: 20px;
+            /* border: 1px solid red; */
+            display: inline-block;
+        }
+
+        .content {
+            display: flex;
+            padding: 30px;
+        }
+
+        .team {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .test {
+            display: flex;
+            flex-direction: column;
+            /* Changed row to column */
+            justify-content: flex-start;
+            align-items: flex-start;
+            /* border: 1px solid red; */
+            margin-right: 30px;
+        }
+
+        .divMedBildet {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="every">
+        <div class="content">
+            <div>
+                <h1>The creative crew</h1>
+            </div>
+            <div style="padding-left: 60px;">
+                <h3>Who are we</h3>
+                <p style="width: 400px;">We are a team of creatively diverse, driven, innovative individuals working in
+                    various locations around the world</p>
+            </div>
+        </div>
+        <div class="team">
+            <div class="test">
+                <div class="divMedBildet">
+                    <img src="photo1.png" alt="">
+                    <span>BlingBling</span>
+                </div>
+                <p class="imgunder">YipYap</p>
+            </div>
+
+            <div class="test">
+                <div class="divMedBildet">
+                    <img src="photo2.png" alt="">
+                    <span>BlingBling</span>
+                </div>
+                <p class="imgunder">YipYap</p>
+            </div>
+            
+            <div class="test">
+                <div class="divMedBildet">
+                    <img src="photo3.png" alt="">
+                    <span>BlingBling</span>
+                </div>
+                <p class="imgunder">YipYap</p>
+            </div>
+            
+            <div class="test">
+                <div class="divMedBildet">
+                    <img src="photo4.png" alt="">
+                    <span>BlingBling</span>
+                </div>
+                <p class="imgunder">YipYap</p>
+            </div>
+            
+            <div class="test">
+                <div class="divMedBildet">
+                    <img src="photo5.png" alt="">
+                    <span>BlingBling</span>
+                </div>
+                <p class="imgunder">YipYap</p>
+            </div>
+            
+            <div class="test">
+                <div class="divMedBildet">
+                    <img src="photo6.png" alt="">
+                    <span>BlingBling</span>
+                </div>
+                <p class="imgunder">YipYap</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
